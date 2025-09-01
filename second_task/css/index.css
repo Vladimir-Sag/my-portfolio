@@ -19,6 +19,7 @@
 }
 
 
+
 :root{
     --Purple:hsl(257, 40%, 49%);
     --Magenta:hsl(300, 69%, 71%);
@@ -48,6 +49,7 @@ body{
 .text_container{
     margin-top:56px;
     margin-left:2px;
+    
 }
 
 h1{
@@ -136,9 +138,6 @@ footer span{
     height: 60%;
 }
 
-
-
-
 @media screen and (min-width: 1200px) {
     body{
         background-image: url(../images/bg-desktop.svg);
@@ -149,8 +148,8 @@ footer span{
         width: 216px;
         height: auto;
     }
-    .image-desctop{
-        width: 709px;
+    .image-desktop{
+        width: 99.3%;
         height: auto;
         margin-left: 4px;
         margin-top: 83px;
@@ -158,6 +157,7 @@ footer span{
     .text_container{
         margin-top:99px;
         margin-left:53px;
+        width:40%
     }
     h1{
         font-size: 40px;
