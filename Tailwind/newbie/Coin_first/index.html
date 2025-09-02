@@ -6,7 +6,7 @@
     <meta name="description" content="A simple and responsive 'Flip the Coin' web app built as a front-end coding challenge to practice HTML, CSS, and JavaScript skills.">
     <title>Flip the coin</title>
     <link rel="icon" href="./resources/favicon.ico" sizes="32*32">
-    <link rer="preload" href="./fonts/Kanit/Kanit-SemiBold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/Kanit/Kanit-SemiBold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
     <link rel="stylesheet" href="./dist/output.css">
     <style>
         *{
@@ -44,16 +44,17 @@ xl:min-h-[940px]">
     </header>
     <main class="flex flex-col items-center gap-9 pb-20
                 lg:gap-10">
-        <img src="./resources/heads.svg" alt="coin" width="160" height="160" class="w-[146px] h-auto
+        <img id="coin_image" src="./resources/heads.svg" alt="coin" width="160" height="160" class="w-[146px] h-auto
         lg:w-[160px]">
         <img src="./resources/shadow.svg" alt="shadow coin" width="100" height="8" class="w-[91px] h-auto
         lg:w-[100px]">
-        <p class="text-[22px] text-[#ECEDF0] tracking-[-0.25px]
+        <p id="coin_text" class="text-[22px] text-[#ECEDF0] tracking-[-0.25px]
         lg:text-2xl lg:mt-[2px]">Heads</p>
-        <button class="bg-[#1F6FB0] w-[147px] rounded-lg tracking-[0.1px]
+        <button id="random_button" type="button" class="bg-[#1F6FB0] w-[147px] rounded-lg tracking-[0.1px]
         h-[46px] text-[18px] uppercase text-[#ECEDF0] mt-[19px] pb-[4px] pe-[6px]
         lg:text-xl lg:w-[162px] lg:h-[50px] lg:tracking-normal lg:pe-0 lg:mt-[22px]"
         >Random</button>
     </main>
+    <script src="./js/change_coin.js" defer></script>
 </body>
 </html>
