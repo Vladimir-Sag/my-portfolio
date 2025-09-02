@@ -1,0 +1,8 @@
+/fonts/*
+  Cache-Control: max-age=31536000
+
+/dist/*
+  Cache-Control: max-age=31536000
+
+/resources/*
+  Cache-Control: max-age=31536000

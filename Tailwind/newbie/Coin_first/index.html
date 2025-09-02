@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple and responsive 'Flip the Coin' web app built as a front-end coding challenge to practice HTML, CSS, and JavaScript skills.">
     <title>Flip the coin</title>
     <link rel="icon" href="./resources/favicon.ico" sizes="32*32">
+    <link rer="preload" href="./fonts/Kanit/Kanit-SemiBold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
     <link rel="stylesheet" href="./dist/output.css">
+    <style>
+        *{
+            font-family: "Kanit",sans-serif ;
+        }
+        body{
+            background-color: #404A65;
+        }
+        h1{
+            text-shadow: 
+            4px 4px 0 #35383F,   
+            -4px -4px 0 #35383F,  
+            4px -4px 0 #35383F,   
+            -4px 4px 0 #35383F
+        }
+        @font-face {
+            font-family: "Kanit";
+            src: url(../fonts/Kanit/Kanit-SemiBold.ttf) format('truetype');
+            font-display: swap;
+        }
+
+    </style>
 </head>
 <body class="px-4 py-[46px] m-0
 lg:min-h-[940px]
@@ -14,16 +37,16 @@ xl:min-h-[940px]">
         <h1 class="text-[#ECEDF0] text-[58px] tracking-[-0.53px] ms-[11px] text-center 
         lg:text-[64px] lg:ms-0 lg:mt-[5px]"
             >Flip the coin</h1>
-        <h4 class="text-[#ECEDF0] text-[22px]  text-center 
+        <h2 class="text-[#ECEDF0] text-[22px]  text-center 
         tracking-[-0.3px] mt-[1px] mb-[52px] ms-[1px] 
         lg:text-2xl lg:ms-0 lg:mt-[11px] lg:mb-[62px]"
-        >Press the coin or the button to flip the coin</h4>
+        >Press the coin or the button to flip the coin</h2>
     </header>
     <main class="flex flex-col items-center gap-9 pb-20
                 lg:gap-10">
-        <img src="./resources/heads.svg" alt="" class="w-[146px] h-auto
+        <img src="./resources/heads.svg" alt="coin" width="160" height="160" class="w-[146px] h-auto
         lg:w-[160px]">
-        <img src="./resources/shadow.svg" alt="" class="w-[91px] h-auto
+        <img src="./resources/shadow.svg" alt="shadow coin" width="100" height="8" class="w-[91px] h-auto
         lg:w-[100px]">
         <p class="text-[22px] text-[#ECEDF0] tracking-[-0.25px]
         lg:text-2xl lg:mt-[2px]">Heads</p>
