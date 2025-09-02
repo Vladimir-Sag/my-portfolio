@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Kanit";
+    src: url(../fonts/Kanit/Kanit-SemiBold.ttf);
+}
+
+*{
+    font-family: "Kanit" ;
+}
+body{
+    background-color: #404A65;
+}
+h1{
+    text-shadow: 
+    4px 4px 0 #35383F,   
+    -4px -4px 0 #35383F,  
+    4px -4px 0 #35383F,   
+    -4px 4px 0 #35383F
+}
+
