@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Outfit;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf) format('truetype');
+    font-display: swap;
+    font-weight: 100 900;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Slate_300: hsl(212, 45%, 89%);
+    --Slate_500: hsl(216, 15%, 48%);
+    --Slate_900: hsl(218, 44%, 22%);
+
+}
+
+body{
+    margin: 0;
+    padding:157px 27px;
+    background: var(--Slate_300);
+}
+
+.main_conatainer{
+    height:468px;
+    width: 289px;
+    margin:auto;
+    background: var(--White);
+    border-radius: 20px;
+    outline: 1px solid var(--Slate_500);
+    padding: 15px;
+}
+.qr_code_image{
+    width: 287px;
+    height: auto;
+    outline: 1px solid var(--Slate_900);
+    border-radius: 10px;
+    margin-top:1px;
+    margin-left:1px;
+}
+h1,p{
+    font-family: 'Outfit',-apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: center;
+    
+}
+h1{
+    font-weight: 700;
+    margin:21px 15px 15px;
+    font-size: 22px;
+    line-height: 26px;
+
+}
+p{
+    font-size: 15px;
+    margin:0 8px;
+    letter-spacing: 0.2px;
+    line-height: 21px;
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        padding:231px 27px;
+    }
+}

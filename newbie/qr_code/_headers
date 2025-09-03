@@ -1,0 +1,8 @@
+/css/index.css
+  Cache-Control: max-age=31536000
+
+/fonts/Outfit/*
+  Cache-Control: max-age=31536000
+
+/images/*
+  Cache-Control: max-age=31536000
